@@ -25,8 +25,8 @@
     justify-content: space-between;
 }
 
-.card ul li strong {
-    font-size: 2.25rem;
+.card ul li p {
+    font-size: 2rem;
     color: var(--game-hour-color);
 }
 
@@ -39,20 +39,30 @@
     transform: scale(1.1);
 }
 
-.card ul li img:hover{
-    transform: scale(1.1);
-}
-
-.card ul li strong:hover {
-    transform: scale(1.1);
-}
-
 .card h2 {
     transition: transform 0.3s;
 }
-.card ul li img {
-    transition: transform 0.3s;
+
+.neon_red {
+    background: var(--Neon-Red);
 }
-.card ul li strong {
-    transition: transform 0.3s;
+
+.playboy_pink {
+    background-color: var(--Playboy-Pink);
+}
+
+.glowing_pink {
+    background-color: var(--Glowing-Pink);
+}
+
+.galaxy_purple {
+    background-color: var(--Galaxy-Purple);
+}
+
+.ballin_blue {
+    background-color: var(--Ballin-Blue);
+}
+
+.lovely_lilac {
+    background-color: var(--Lovely-Lilac);
 }

@@ -1,8 +1,14 @@
 :root {
-    --card-tittle-border-color: #746615;
-    --card-color-primary: #f4dd43;
+    --card-tittle-border-color: #a33b20;
+    --card-color-primary: #FF0000;
     --color-bg-card: #1d1c19;
     --bg-color: #121214;
     --li-border-color: #323238;
     --game-hour-color: #e1e1e6;
+    --Neon-Red: #FF0000;
+    --Playboy-Pink: #B45360FF;
+    --Glowing-Pink: #FF03F2;
+    --Galaxy-Purple: #3503FF;
+    --Ballin-Blue: #0A17EAAA;
+    --Lovely-Lilac: #2F2B3BAA;
 }

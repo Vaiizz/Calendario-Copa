@@ -7,7 +7,11 @@
 }
 
 body {
-    background: var(--bg-color) url(../assets/bg.svg) no-repeat top center/cover;
+    background-color: var(--bg-color);
+    background-image: url(../assets/bg\ mobile.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-block: 3.25rem;
 }
 
@@ -15,6 +19,11 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
+}
+
+header img {
+    width: 25%;
+    margin: -3.5rem;
 }
 
 main {

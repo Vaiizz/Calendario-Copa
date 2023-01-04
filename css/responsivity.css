@@ -1,4 +1,7 @@
 @media (min-width:700px) {
+    body {
+        background-image: url(../assets/bg\ desktop.jpg);
+    }
     main {
         flex-direction: row;
         max-width: 42rem;
