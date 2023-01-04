@@ -78,3 +78,15 @@
 .trippy_green {
     background-color: var(--Trippy-Green);
 }
+
+.subtle_orange {
+    background-color: var(--Subtle-Orange);
+}
+
+.pure_black {
+    background-color: var(--Pure-Black);
+}
+
+.neon_orange {
+    background-color: var(--Neon-Orange);
+}
