@@ -52,6 +52,8 @@
 .card_colors ul li p {
     font-size: 2rem;
     color: var(--game-hour-color);
+    width: 100vh;
+    border-radius: 8px;
 }
 
 .card ul li + li {
@@ -74,100 +76,80 @@
 
 .neon_red p {
     background: var(--Neon-Red);
-    width: 100vh;
 }
 
 .vinho p {
     background-color: var(--Vinho);
-    width: 100vh;
 }
 
 .playboy_pink p {
     background-color: var(--Playboy-Pink);
-    width: 100vh;
 }
 
 .glowing_pink p {
     background-color: var(--Glowing-Pink);
-    width: 100vh;
 }
 
 .hot_pink p {
     background-color: var(--Hot-Pink);
-    width: 100vh;
 }
 
 .galaxy_purple p {
     background-color: var(--Galaxy-Purple);
-    width: 100vh;
 }
 
 .ballin_blue p {
     background-color: var(--Ballin-Blue);
-    width: 100vh;
 }
 
 .lovely_lilac p {
     background-color: var(--Lovely-Lilac);
-    width: 100vh;
 }
 
 .chrome_gold p {
     background-color: var(--Chrome-Gold);
-    width: 100vh;
 }
 
 .bling_purple p {
     background-color: var(--Bling-Purple);
-    width: 100vh;
 }
 
 .trippy_green p {
     background-color: var(--Trippy-Green);
-    width: 100vh;
 }
 
 .subtle_orange p {
     background-color: var(--Subtle-Orange);
-    width: 100vh;
 }
 
 .pure_black p {
     background-color: var(--Pure-Black);
-    width: 100vh;
 }
 
 .neon_orange p {
     background-color: var(--Neon-Orange);
-    width: 100vh;
 }
 
 .pure_white p {
     background-color: var(--Pure-White);
-    width: 100vh;
 }
 
 .bright_ultra_blue p {
     background-color: var(--Bright-Ultra-Blue);
-    width: 100vh;
 }
 
 .dragon_fruit p {
     background-color: var(--Dragon-Fruit);
-    width: 100vh;
 }
 
 .neon_green p {
     background-color: var(--Neon-Green);
-    width: 100vh;
 }
 
 .kombu_green p {
     background-color: var(--Kombu-Green);
-    width: 100vh;
 }
 
 .philippine_gold p {
     background-color: var(--Philippine-Gold);
-    width: 100vh;
 }
