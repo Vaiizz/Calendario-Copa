@@ -66,11 +66,19 @@
     border-top: 1px solid var(--li-border-color);
 }
 
-.card h2:hover{
+section h2:hover {
     transform: scale(1.1);
 }
 
-.card h2 {
+section h2 {
+    transition: transform 0.3s;
+}
+
+li p:hover {
+    transform: scale(1.1);
+}
+
+li p {
     transition: transform 0.3s;
 }
 
