@@ -9,17 +9,36 @@
     border-bottom: 2px solid var(--card-color-primary);
 }
 
+.card_colors {
+    background: var(--bg-color);
+    width: 19.75rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border-bottom: 2px solid var(--card-color-primary);
+}
+
 .card ul {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.card img {
-    width: 3.125rem;
+.card_colors ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_colors ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +49,17 @@
     color: var(--game-hour-color);
 }
 
+.card_colors ul li p {
+    font-size: 2rem;
+    color: var(--game-hour-color);
+}
+
 .card ul li + li {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--li-border-color);
+}
+
+.card_colors ul li + li {
     padding-top: 1.5rem;
     border-top: 1px solid var(--li-border-color);
 }
@@ -43,50 +72,102 @@
     transition: transform 0.3s;
 }
 
-.neon_red {
+.neon_red p {
     background: var(--Neon-Red);
+    width: 100vh;
 }
 
-.playboy_pink {
+.vinho p {
+    background-color: var(--Vinho);
+    width: 100vh;
+}
+
+.playboy_pink p {
     background-color: var(--Playboy-Pink);
+    width: 100vh;
 }
 
-.glowing_pink {
+.glowing_pink p {
     background-color: var(--Glowing-Pink);
+    width: 100vh;
 }
 
-.galaxy_purple {
+.hot_pink p {
+    background-color: var(--Hot-Pink);
+    width: 100vh;
+}
+
+.galaxy_purple p {
     background-color: var(--Galaxy-Purple);
+    width: 100vh;
 }
 
-.ballin_blue {
+.ballin_blue p {
     background-color: var(--Ballin-Blue);
+    width: 100vh;
 }
 
-.lovely_lilac {
+.lovely_lilac p {
     background-color: var(--Lovely-Lilac);
+    width: 100vh;
 }
 
-.gold {
-    background-color: var(--Gold);
+.chrome_gold p {
+    background-color: var(--Chrome-Gold);
+    width: 100vh;
 }
 
-.bling_purple {
+.bling_purple p {
     background-color: var(--Bling-Purple);
+    width: 100vh;
 }
 
-.trippy_green {
+.trippy_green p {
     background-color: var(--Trippy-Green);
+    width: 100vh;
 }
 
-.subtle_orange {
+.subtle_orange p {
     background-color: var(--Subtle-Orange);
+    width: 100vh;
 }
 
-.pure_black {
+.pure_black p {
     background-color: var(--Pure-Black);
+    width: 100vh;
 }
 
-.neon_orange {
+.neon_orange p {
     background-color: var(--Neon-Orange);
+    width: 100vh;
+}
+
+.pure_white p {
+    background-color: var(--Pure-White);
+    width: 100vh;
+}
+
+.bright_ultra_blue p {
+    background-color: var(--Bright-Ultra-Blue);
+    width: 100vh;
+}
+
+.dragon_fruit p {
+    background-color: var(--Dragon-Fruit);
+    width: 100vh;
+}
+
+.neon_green p {
+    background-color: var(--Neon-Green);
+    width: 100vh;
+}
+
+.kombu_green p {
+    background-color: var(--Kombu-Green);
+    width: 100vh;
+}
+
+.philippine_gold p {
+    background-color: var(--Philippine-Gold);
+    width: 100vh;
 }
