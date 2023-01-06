@@ -55,3 +55,13 @@ ul {
     list-style: none;
     width: 100%;
 }
+
+p {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}

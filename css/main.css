@@ -46,12 +46,10 @@
 
 .card ul li p {
     font-size: 2rem;
-    color: var(--game-hour-color);
 }
 
-.card_colors ul li p {
+.card_colors ul li a {
     font-size: 2rem;
-    color: var(--game-hour-color);
     width: 100vh;
     border-radius: 8px;
 }
@@ -74,90 +72,103 @@ section h2 {
     transition: transform 0.3s;
 }
 
-li p:hover {
+li a:hover {
     transform: scale(1.1);
 }
 
-li p {
+li a {
     transition: transform 0.3s;
+    text-decoration: none;
 }
 
-.neon_red p {
+.neon_red a {
     background: var(--Neon-Red);
 }
 
-.vinho p {
+.vinho a {
     background-color: var(--Vinho);
 }
 
-.playboy_pink p {
+.playboy_pink a {
     background-color: var(--Playboy-Pink);
 }
 
-.glowing_pink p {
+.glowing_pink a {
     background-color: var(--Glowing-Pink);
 }
 
-.hot_pink p {
+.hot_pink a {
     background-color: var(--Hot-Pink);
 }
 
-.galaxy_purple p {
+.galaxy_purple a {
     background-color: var(--Galaxy-Purple);
 }
 
-.ballin_blue p {
+.ballin_blue a {
     background-color: var(--Ballin-Blue);
 }
 
-.lovely_lilac p {
+.lovely_lilac a {
     background-color: var(--Lovely-Lilac);
 }
 
-.chrome_gold p {
+.chrome_gold a {
     background-color: var(--Chrome-Gold);
 }
 
-.bling_purple p {
+.bling_purple a {
     background-color: var(--Bling-Purple);
 }
 
-.trippy_green p {
+.trippy_green a {
     background-color: var(--Trippy-Green);
 }
 
-.subtle_orange p {
+.subtle_orange a {
     background-color: var(--Subtle-Orange);
 }
 
-.pure_black p {
+.pure_black a {
     background-color: var(--Pure-Black);
 }
 
-.neon_orange p {
+.neon_orange a {
     background-color: var(--Neon-Orange);
 }
 
-.pure_white p {
+.pure_white a {
     background-color: var(--Pure-White);
 }
 
-.bright_ultra_blue p {
+.bright_ultra_blue a {
     background-color: var(--Bright-Ultra-Blue);
 }
 
-.dragon_fruit p {
+.dragon_fruit a {
     background-color: var(--Dragon-Fruit);
 }
 
-.neon_green p {
+.neon_green a {
     background-color: var(--Neon-Green);
 }
 
-.kombu_green p {
+.kombu_green a {
     background-color: var(--Kombu-Green);
 }
 
-.philippine_gold p {
+.philippine_gold a {
     background-color: var(--Philippine-Gold);
+}
+
+.red_peach a {
+    background-color: var(--Red-Peach);
+}
+
+.periwinkle a {
+    background-color: var(--Periwinkle);
+}
+
+.neon_purple a {
+    background-color: var(--Neon-Purple);
 }

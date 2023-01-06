@@ -4,7 +4,7 @@
     --color-bg-card: #1d1c19;
     --bg-color: #121214;
     --li-border-color: #323238;
-    --game-hour-color: #e1e1e6;
+    --text-color: #e1e1e6;
     --Neon-Red: #FF0000FF;
     --Vinho: #280000;
     --Playboy-Pink: #B45360;
@@ -25,4 +25,7 @@
     --Neon-Green: #39FF14;
     --Kombu-Green: #343C32AA;
     --Philippine-Gold: #AF6605;
+    --Red-Peach: #FD3333;
+    --Periwinkle: #947FFFAA;
+    --Neon-Purple: #FD00FFAA;
 }
