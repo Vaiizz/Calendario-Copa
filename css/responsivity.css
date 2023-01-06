@@ -4,7 +4,12 @@
     }
     main {
         flex-direction: row;
-        max-width: 42rem;
+        max-width: 74rem;
         flex-wrap: wrap;
+    }
+
+    section {
+        margin-inline: 0;
+        max-width: 17rem;
     }
 }
